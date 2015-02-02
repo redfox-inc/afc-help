@@ -1,7 +1,9 @@
+
 .. |login_img| image:: /img/login.jpg
   :scale: 60%
   :alt: ログイン画面
 .. _LoginURL:
+
 
 ログイン
 -------------
