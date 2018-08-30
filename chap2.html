@@ -4,14 +4,15 @@
   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 
 
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="ja">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <title>管理者の操作方法 &mdash; afc 1.0.1 ドキュメント</title>
+    <title>管理者の操作方法 &#8212; afc 1.0.1 ドキュメント</title>
     
     <link rel="stylesheet" href="_static/help.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/sphinxcontrib-images/LightBox2/lightbox2/css/lightbox.css" type="text/css" />
     <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Noticia+Text|Open+Sans|Droid+Sans+Mono" type="text/css" />
     
     <script type="text/javascript">
@@ -20,30 +21,35 @@
         VERSION:     '1.0.1',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
-        HAS_SOURCE:  true
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
       };
     </script>
     <script type="text/javascript" src="_static/jquery.js"></script>
     <script type="text/javascript" src="_static/underscore.js"></script>
     <script type="text/javascript" src="_static/doctools.js"></script>
     <script type="text/javascript" src="_static/translations.js"></script>
+    <script type="text/javascript" src="_static/sphinxcontrib-images/LightBox2/lightbox2/js/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="_static/sphinxcontrib-images/LightBox2/lightbox2/js/lightbox.min.js"></script>
+    <script type="text/javascript" src="_static/sphinxcontrib-images/LightBox2/lightbox2-customize/jquery-noconflict.js"></script>
     <script type="text/javascript" src="_static/jquery.balloon.js"></script>
     <script type="text/javascript" src="_static/jquery.smooth-scroll.min.js"></script>
     <script type="text/javascript" src="_static/help.js"></script>
     <script type="text/javascript" src="_static/jquery.cookie.js"></script>
     <script type="text/javascript" src="_static/cloud.js"></script>
-    <link rel="top" title="afc 1.0.1 ドキュメント" href="index.html" />
+    <link rel="index" title="索引" href="genindex.html" />
+    <link rel="search" title="検索" href="search.html" />
     <link rel="next" title="ユーザーの操作方法" href="chap3.html" />
     <link rel="prev" title="概要" href="chap1.html" /> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-  <body>
+  <body role="document">
     <div class="relbar-top">
         
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>ナビゲーション</h3>
       <ul>
-        <li class="right" style="margin-right: 10px;display:none">
+        <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="総合索引"
              accesskey="I">索引</a></li>
         <li class="right" >
@@ -52,7 +58,7 @@
         <li class="right" >
           <a href="chap1.html" title="概要"
              accesskey="P">前へ</a> &nbsp; &nbsp;</li>
-    <li><a href="index.html">afc 1.0.1 ドキュメント</a> &raquo;</li>
+    <li><a href="index.html">afc 1.0.1 ドキュメント</a> &#187;</li>
  
       </ul>
     </div>
@@ -62,7 +68,7 @@
     <div class="document">
       <div class="documentwrapper">
         <div class="bodywrapper">
-          <div class="body">
+          <div class="body" role="main">
             
 <div class="section" id="id1">
 <h1>管理者の操作方法<a class="headerlink" href="#id1" title="このヘッドラインへのパーマリンク">¶</a></h1>
@@ -86,24 +92,24 @@
 <p>下記のメニューから機能を選択できます。</p>
 <p><img alt="管理者メニュー画面" src="_images/chp2_1.jpg" /></p>
 <ol class="arabic simple">
-<li>交通費を利用するメンバーを設定できます。(システム管理者のみ)</li>
-<li>交通費を確定したメンバーへの承認作業ができます。</li>
+<li>交通費を利用するユーザーを設定できます。(システム管理者のみ)</li>
+<li>交通費を確定したユーザーへの承認作業ができます。</li>
 </ol>
 <div class="section" id="id5">
-<h3>メンバーの利用設定をする<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>ユーザーの利用設定をする<a class="headerlink" href="#id5" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <p>システム管理者のみ、設定ができます。</p>
 <blockquote>
 <div><ul class="simple">
 <li>メニューから交通費利用者設定に移動します。</li>
-<li>利用させたいメンバを追加します。</li>
+<li>利用させたいユーザーを追加します。</li>
 </ul>
 </div></blockquote>
 <p><img alt="管理者許可画面" src="_images/chp2_2.jpg" /></p>
 <ol class="arabic simple">
 <li>交通費自動計算の契約ユーザー数と、利用中ユーザー数が表示されます。</li>
-<li>グループやメンバーを指定して表示を絞り込むことができます。</li>
-<li>チェックを入れたメンバーを追加、あるいは解除することができます。</li>
-<li>追加、または解除したいメンバーにチェックを入れます。</li>
+<li>グループやユーザーを指定して表示を絞り込むことができます。</li>
+<li>チェックを入れたユーザーを追加、あるいは解除することができます。</li>
+<li>追加、または解除したいユーザーにチェックを入れます。</li>
 </ol>
 <div class="line-block">
 <div class="line"><br /></div>
@@ -111,34 +117,40 @@
 </div>
 </div>
 <div class="section" id="id6">
-<h3>メンバーの交通費申請を承認する<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h3>
+<h3>ユーザーの交通費申請を承認する<a class="headerlink" href="#id6" title="このヘッドラインへのパーマリンク">¶</a></h3>
 <ul class="simple">
-<li>メニューから交通費承認に移動します。</li>
-<li>メンバを選択して、月間の申請内容を確認します。</li>
-<li>問題がなければ承認ボタンを押します。</li>
+<li>メニューから「交通費承認一覧」に移動します。</li>
+<li>ユーザー別、1日ごとの「承認する」ボタンが表示されているので、問題がなければこの画面で承認をすることができます。</li>
+<li>ユーザーが交通費を確定させていないときに「未確定です」と表示され、確定させているときには表示が出なくなります。</li>
 </ul>
-<p><img alt="管理者承認画面について" src="_images/chp2_3.jpg" /></p>
+<p><img alt="管理者承認画面について" src="_images/chap2_n_1.png" /></p>
 <ol class="arabic simple">
-<li>承認したい年月に移動できます。</li>
-<li>グループやメンバーを指定して表示を絞り込むことができます。</li>
-<li>「詳細」を押すと、ユーザー毎の交通費情報を見ることができます。</li>
+<li>表示させる日付を指定できます。</li>
+<li>グループ、ユーザー、承認の状況などで表示を絞り込みます。</li>
+<li>行をクリックで交通費詳細を確認する画面に移動します。</li>
+<li>一番上のチェックボックスをチェックすると全選択、それぞれの行のチェックボックスをチェックで複数選択した行を一括で承認します。</li>
+<li>「承認する」ボタンで承認します。「承認済み」ボタンを押すと、承認を解除します。</li>
 </ol>
 <div class="section" id="id7">
-<h4>メンバーの申請内容を確認する<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h4>
-<p><img alt="管理者操作画面について" src="_images/chp2_4.jpg" /></p>
+<h4>ユーザーの申請内容を確認する<a class="headerlink" href="#id7" title="このヘッドラインへのパーマリンク">¶</a></h4>
+<p><img alt="管理者操作画面について" src="_images/chap2_n_2.png" /></p>
 <ol class="arabic simple">
-<li>確認したい年月に移動できます。</li>
-<li>ボタンを押すと、選択している月が承認状態になります。(承認後に解除もできます。)　<a class="reference internal" href="_images/chp2_5.jpg"><img alt="承認解除について" class="align-bottom" src="_images/chp2_5.jpg" style="width: 124.2px; height: 39.0px;" /></a></li>
-<li>日付を1日ずつ切り替えます。</li>
-<li>同日内の <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> を切り替えます。</li>
-<li>現在選択している <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> の路線情報が表示されます。</li>
-<li>現在選択している <a class="reference internal" href="glossary.html#term-15"><em class="xref std std-term">移動</em></a> の金額と、当日の合計金額が表示されます。</li>
+<li>表示させる日付を指定できます。カレンダーの色は <a class="reference internal" href="#cal-color"><span class="std std-ref">こちら</span></a> となります。</li>
+<li>前の日、次の日に移動します。</li>
+<li>経路、交通費の表示欄をクリックすると、左側が地図表示になります。</li>
+<li>カレンダーを表示させます。</li>
+<li>地図に移動経路が表示されます。</li>
+<li>前の、または次の移動の内容を表示します。</li>
+<li>経路表示では、点線内をクリックで他の経路候補が表示されます。</li>
+<li>1日の交通費明細が表示されます。</li>
+<li>1日の交通費表示を確認したら「承認する」を押します。</li>
+<li>交通費承認一覧に戻ります。</li>
 </ol>
-<ul class="simple">
+<ul class="simple" id="cal-color">
 <li>カレンダー内の色は以下の状態を表しています。</li>
 </ul>
-<table border="1" class="docutils">
-<caption>カレンダーの色について</caption>
+<table border="1" class="colwidths-given docutils" id="id8">
+<caption><span class="caption-text">カレンダーの色について</span><a class="headerlink" href="#id8" title="このテーブルへのパーマリンク">¶</a></caption>
 <colgroup>
 <col width="50%" />
 <col width="50%" />
@@ -169,7 +181,7 @@
           </div>
         </div>
       </div>
-      <div class="sphinxsidebar">
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
         <p class="logo"><a href="index.html" title="index">
           <img class="logo" src="_static/cyzen_logo.png" alt="Logo"/>
@@ -179,8 +191,8 @@
 <li><a class="reference internal" href="#">管理者の操作方法</a><ul>
 <li><a class="reference internal" href="#loginurl">ログイン</a></li>
 <li><a class="reference internal" href="#id4">メイン画面</a><ul>
-<li><a class="reference internal" href="#id5">メンバーの利用設定をする</a></li>
-<li><a class="reference internal" href="#id6">メンバーの交通費申請を承認する</a></li>
+<li><a class="reference internal" href="#id5">ユーザーの利用設定をする</a></li>
+<li><a class="reference internal" href="#id6">ユーザーの交通費申請を承認する</a></li>
 </ul>
 </li>
 </ul>
@@ -222,14 +234,31 @@
 </script>
         </div>
       </div>
+    
+    
+        <div class="sidebar-toggle-group no-js">
+            
+            <button class="sidebar-toggle" id="sidebar-hide" title="Hide the sidebar menu">
+                 «
+                <span class="show-for-small">hide menu</span>
+                
+            </button>
+            <button class="sidebar-toggle" id="sidebar-show" title="Show the sidebar menu">
+                
+                <span class="show-for-small">menu</span>
+                <span class="hide-for-small">メニュー</span>
+                 »
+            </button>
+        </div>
+    
       <div class="clearer"></div>
     </div>
     <div class="relbar-bottom">
         
-    <div class="related">
+    <div class="related" role="navigation" aria-label="related navigation">
       <h3>ナビゲーション</h3>
       <ul>
-        <li class="right" style="margin-right: 10px;display:none">
+        <li class="right" style="margin-right: 10px">
           <a href="genindex.html" title="総合索引"
              >索引</a></li>
         <li class="right" >
@@ -238,15 +267,15 @@
         <li class="right" >
           <a href="chap1.html" title="概要"
              >前へ</a> &nbsp; &nbsp;</li>
-    <li><a href="index.html">afc 1.0.1 ドキュメント</a> &raquo;</li>
+    <li><a href="index.html">afc 1.0.1 ドキュメント</a> &#187;</li>
  
       </ul>
     </div>
     </div>
 
-    <div class="footer">
-        &copy; Copyright 2015 redfox, Inc. All Rights Reserved..
-      このドキュメントは <a href="http://sphinx-doc.org/">Sphinx</a> 1.2.3 で生成しました。
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2018 redfox, Inc. All Rights Reserved..
+      このドキュメントは <a href="http://sphinx-doc.org/">Sphinx</a> 1.5.1 で生成しました。
     </div>
     <!-- cloud_sptheme 1.4 -->
   </body>
